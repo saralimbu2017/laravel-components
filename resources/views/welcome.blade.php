@@ -31,7 +31,7 @@
           <x-home-search></x-home-search>
                   
                     <!-- Categories widget-->
-            <x-categories></x-categories>
+            <x-categories :users="$users"></x-categories>
                    
                     <!-- Side widget-->
             <x-side-widget></x-side-widget>
